@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Tutors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-cont-find">
+        <nav class="d-flex justify-content-between align-items-center">
+            <div class="nav-logo">
+                <span>Tutorify</span>
+            </div>
+            <div class="nav-items">
+                <a href="index.html">Home</a>
+                <a href="#">Lessons</a>
+                <a href="tutor-list.html" class="active" >Find Tutors</a>
+                <a href="#">About Us</a>
+                <button id="l-in" type="submit"><span>Login</span></button>
+                <button id="s-up" type="submit"><span>Signup</span></button>
+            </div>
+        </nav>
+        <div class="sections-buttons">
+            <div class="row-1 d-flex">
+                <div class="srarch-sec d-flex align-items-center">
+                    <div class="lesson-name d-flex align-items-center">
+                        <form action="" class="d-flex align-items-center">
+                            <img src="imgaehomepage/Vector-search-icon.png" alt="">
+                            <input type="text" id="lesson-name" name="lname" placeholder="Lessons Name">
+                            <div class="vericle-line"></div>
+                            <input type="text" id="tutor-name" name="tname" placeholder="Tutor Name">
+                            <button class="">
+                                <img src="imgaehomepage/Vector-search-white.png"
+                                    style="margin:12px 11px 13px 74px!important;" alt="">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="option-button d-flex align-items-center ">
+                    <form action="" class="d-flex align-items-center">
+                        <img src="imgaehomepage/Vector-eye.png" alt="">
+                        <select id="lesson" name="Lessons">
+                            <option value="l-0">Popular Lesson</option>
+                            <option value="l-1">Lesson 2</option>
+                            <option value="l-2">Lesson 3</option>
+                            <option value="l-3">Lesson 4</option>
+                        </select>
+                </div>
+            </div>
+            <div class="row-2 d-flex align-items-center">
+                <button class="btn-1">Also speaks</button>
+                <button class="btn-2">From</button>
+                <button class="btn-3">Price</button>
+                <button class="btn-4">Native speaker</button>
+                <button class="btn-5">Teacher types</button>
+                <button class="btn-6">Category</button>
+                <button class="btn-7">Instant lesson</button>
+                <button class="btn-8">Availabillity</button>
+                <button class="btn-9">Auto-accept</button>
+            </div>
+        </div>
+        <div class="section-main">
+            <div class="tutor-data d-flex justify-content-between">
+                <div class="tutor-info-card">
+                    <div class="card-data">
+                        <div class="tutor-card-img">
+                            <img src="imgaehomepage/unsplash_sgZX15Da8YE-card-img-1.png"
+                                style="height: auto; width: 100%;" alt="">
+                            <div class="card-flags">
+                                <img src="imgaehomepage/Flag_of_France.svg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="tutor-card-text">
+                            <div class="t20-lesson">
+                                <img src="imgaehomepage/Group 94-20-lessons.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h1>Brooklyn Simmons</h1>
+                                <h4>4.9 Rating</h4>
+                            </div>
+                            <div class=" star-img d-flex justify-content-between">
+                                <span>Community Tutor</span>
+                                <img src="imgaehomepage/Group 39stars.png" alt="">
+                            </div>
+                            <h2>Speaks</h2>
+                            <div class="d-flex align-items-center">
+                                <span>English -</span>
+                                <h5>Native</h5>
+                                <div class="h-line"></div>
+                                <span>Spanish -</span>
+                                <h5>Native</h5>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h3>30 Min Trial</h3>
+                                <h3>Hourly Rate From</h3>
+                            </div>
+                            <div class="d-flex justify-content-between" style="padding-bottom: 21px
+                        ;">
+                                <span>IDR - 85,730.10</span>
+                                <span>IDR - 485,730.10</span>
+                            </div>
+                        </div>
+                        <div class="student-book d-flex justify-content-between">
+                            <div class="student-logo d-flex align-items-center">
+                                <img src="imgaehomepage/Vector-profile-student.png" alt="">
+                                <h1>120 Students</h1>
+                            </div>
+                            <button>Book</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-profile-card d-flex flex-column align-items-center ">
+                    <div class="prf-schd-btn d-flex align-items-center justify-content-center">
+                        <ul class="nav nav-tabs d-flex align-items-center justify-content-center">
+                            <li class="active">
+                                <a href="#1" data-toggle="tab">Profile</a>
+                            </li>
+                            <li><a href="#2" data-toggle="tab">Schedule</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content ">
+                        <div class="tab-pane active" id="1">
+                            <div class="diva">
+                                <div class="prf-bg-img prf-bg-1 d-flex align-items-center justify-content-center">
+                                    <img src="imgaehomepage/Vector-vid-prof-icon.png" alt="">
+                                </div>
+                                <div class="heading-card-profile">
+                                    <h1>Description</h1>
+                                </div>
+                                <div class="prf-schd-text ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam integer sit
+                                        mauris
+                                        sit. Pellentesque urna, adipiscing at aliquam tempor non. Lectus bibendum
+                                        sollicitudin
+                                        aliquet id...</p>
+                                    <div class="read-more-btn d-flex align-items-end justify-content-end">
+                                        <a href="tutor-profile.html"><button>Read more</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="2">
+                            <div class="divb">
+                                <div class="schedule-section d-flex flex-column align-items-center">
+                                    <div class="schedule-month d-flex align-items-center justify-content-between">
+                                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span>November</span>
+                                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="schedule-daydate">
+                                        <div class="schedule-day d-flex justify-content-end">
+                                            <div class="daydate-colmn">
+                                                <h5>Mo</h5>
+                                                <span>26</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Tu</h5>
+                                                <span>27</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>We</h5>
+                                                <span>28</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Th</h5>
+                                                <span>29</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Fr</h5>
+                                                <span>30</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Sa</h5>
+                                                <span>1</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Su</h5>
+                                                <span>2</span>
+    
+    
+                                            </div>
+                                        </div>
+                                        <div class="schedule-time">
+                                            <div class="schedule">
+                                                <span>6-12</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>2-18</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>18-24</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>00-16</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                        </div>
+                                        <div class="H-signs">
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-1 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-1-1"></div>
+                                                </div>
+                                                <span>Working Hours</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-2 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-2-2"></div>
+                                                </div>
+                                                <span>Holidays</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-3 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-3-3"></div>
+                                                </div>
+                                                <span>National Day Holiday</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tutor-data d-flex justify-content-between">
+                <div class="tutor-info-card">
+                    <div class="card-data">
+                        <div class="tutor-card-img">
+                            <img src="imgaehomepage/unsplash_dcZsxUAAJXs-card-2-photo.png"
+                                style="height: auto; width: 100%;" alt="">
+                            <div class="card-flags">
+                                <img src="imgaehomepage/Flag_of_the_People's_Republic_of_China.svg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="tutor-card-text">
+                            <div class="t20-lesson">
+                                <img src="imgaehomepage/Group 94-20-lessons.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h1>Theresa Webb</h1>
+                                <h4>4.9 Rating</h4>
+                            </div>
+                            <div class=" star-img d-flex justify-content-between">
+                                <span>Community Tutor</span>
+                                <img src="imgaehomepage/Group 39stars.png" alt="">
+                            </div>
+                            <h2>Speaks</h2>
+                            <div class="d-flex align-items-center">
+                                <span>English -</span>
+                                <h5>Native</h5>
+                                <div class="h-line"></div>
+                                <span>Spanish -</span>
+                                <h5>Native</h5>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h3>30 Min Trial</h3>
+                                <h3>Hourly Rate From</h3>
+                            </div>
+                            <div class="d-flex justify-content-between" style="padding-bottom: 21px
+                        ;">
+                                <span>IDR - 85,730.10</span>
+                                <span>IDR - 485,730.10</span>
+                            </div>
+                        </div>
+                        <div class="student-book d-flex justify-content-between">
+                            <div class="student-logo d-flex align-items-center">
+                                <img src="imgaehomepage/Vector-profile-student.png" alt="">
+                                <h1>120 Students</h1>
+                            </div>
+                            <button>Book</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-profile-card d-flex flex-column align-items-center ">
+                    <div class="prf-schd-btn d-flex align-items-center justify-content-center">
+                        <ul class="nav nav-tabs d-flex align-items-center justify-content-center">
+                            <li class="active">
+                                <a href="#3" data-toggle="tab">Profile</a>
+                            </li>
+                            <li><a href="#4" data-toggle="tab">Schedule</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content ">
+                        <div class="tab-pane active" id="3">
+                            <div class="diva">
+                                <div class="prf-bg-img prf-bg-2 d-flex align-items-center justify-content-center">
+                                    <img src="imgaehomepage/Vector-vid-prof-icon.png" alt="">
+                                </div>
+                                <div class="heading-card-profile">
+                                    <h1>Description</h1>
+                                </div>
+                                <div class="prf-schd-text ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam integer sit mauris
+                                        sit. Pellentesque urna, adipiscing at aliquam tempor non. Lectus bibendum sollicitudin
+                                        aliquet id...</p>
+                                    <div class="read-more-btn d-flex align-items-end justify-content-end">
+                                        <a href="tutor-profile.html"><button>Read more</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="4">
+                            <div class="divb">
+                                <div class="schedule-section d-flex flex-column align-items-center">
+                                    <div class="schedule-month d-flex align-items-center justify-content-between">
+                                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span>November</span>
+                                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="schedule-daydate">
+                                        <div class="schedule-day d-flex justify-content-end">
+                                            <div class="daydate-colmn">
+                                                <h5>Mo</h5>
+                                                <span>26</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Tu</h5>
+                                                <span>27</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>We</h5>
+                                                <span>28</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Th</h5>
+                                                <span>29</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Fr</h5>
+                                                <span>30</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Sa</h5>
+                                                <span>1</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Su</h5>
+                                                <span>2</span>
+    
+    
+                                            </div>
+                                        </div>
+                                        <div class="schedule-time">
+                                            <div class="schedule">
+                                                <span>6-12</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>2-18</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>18-24</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>00-16</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                        </div>
+                                        <div class="H-signs">
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-1 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-1-1"></div>
+                                                </div>
+                                                <span>Working Hours</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-2 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-2-2"></div>
+                                                </div>
+                                                <span>Holidays</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-3 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-3-3"></div>
+                                                </div>
+                                                <span>National Day Holiday</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="tutor-data d-flex justify-content-between">
+                <div class="tutor-info-card">
+                    <div class="card-data">
+                        <div class="tutor-card-img">
+                            <img src="imgaehomepage/unsplash_h6gCRTCxM7o-card-3-photo.png"
+                                style="height: auto; width: 100%;" alt="">
+                            <div class="card-flags">
+                                <img src="imgaehomepage/Flag_of_France.svg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="tutor-card-text">
+                            <div class="t20-lesson">
+                                <img src="imgaehomepage/Group 94-20-lessons.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h1>Kathryn Murphy</h1>
+                                <h4>4.9 Rating</h4>
+                            </div>
+                            <div class=" star-img d-flex justify-content-between">
+                                <span>Community Tutor</span>
+                                <img src="imgaehomepage/Group 39stars.png" alt="">
+                            </div>
+                            <h2>Speaks</h2>
+                            <div class="d-flex align-items-center">
+                                <span>English -</span>
+                                <h5>Native</h5>
+                                <div class="h-line"></div>
+                                <span>Spanish -</span>
+                                <h5>Native</h5>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h3>30 Min Trial</h3>
+                                <h3>Hourly Rate From</h3>
+                            </div>
+                            <div class="d-flex justify-content-between" style="padding-bottom: 21px
+                        ;">
+                                <span>IDR - 85,730.10</span>
+                                <span>IDR - 485,730.10</span>
+                            </div>
+                        </div>
+                        <div class="student-book d-flex justify-content-between">
+                            <div class="student-logo d-flex align-items-center">
+                                <img src="imgaehomepage/Vector-profile-student.png" alt="">
+                                <h1>120 Students</h1>
+                            </div>
+                            <button>Book</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-profile-card d-flex flex-column align-items-center ">
+                    <div class="prf-schd-btn d-flex align-items-center justify-content-center">
+                        <ul class="nav nav-tabs d-flex align-items-center justify-content-center">
+                            <li class="active">
+                                <a href="#5" data-toggle="tab">Profile</a>
+                            </li>
+                            <li><a href="#6" data-toggle="tab">Schedule</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content ">
+                        <div class="tab-pane active" id="5">
+                            <div class="diva">
+                                <div class="prf-bg-img prf-bg-3 d-flex align-items-center justify-content-center">
+                                    <img src="imgaehomepage/Vector-vid-prof-icon.png" alt="">
+                                </div>
+                                <div class="heading-card-profile">
+                                    <h1>Description</h1>
+                                </div>
+                                <div class="prf-schd-text ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam integer sit mauris
+                                        sit. Pellentesque urna, adipiscing at aliquam tempor non. Lectus bibendum sollicitudin
+                                        aliquet id...</p>
+                                    <div class="read-more-btn d-flex align-items-end justify-content-end">
+                                        <a href="tutor-profile.html"><button>Read more</button></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="6">
+                            <div class="divb">
+                                <div class="schedule-section d-flex flex-column align-items-center">
+                                    <div class="schedule-month d-flex align-items-center justify-content-between">
+                                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span>November</span>
+                                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="schedule-daydate">
+                                        <div class="schedule-day d-flex justify-content-end">
+                                            <div class="daydate-colmn">
+                                                <h5>Mo</h5>
+                                                <span>26</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Tu</h5>
+                                                <span>27</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>We</h5>
+                                                <span>28</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Th</h5>
+                                                <span>29</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Fr</h5>
+                                                <span>30</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Sa</h5>
+                                                <span>1</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Su</h5>
+                                                <span>2</span>
+    
+    
+                                            </div>
+                                        </div>
+                                        <div class="schedule-time">
+                                            <div class="schedule">
+                                                <span>6-12</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>2-18</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>18-24</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>00-16</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                        </div>
+                                        <div class="H-signs">
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-1 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-1-1"></div>
+                                                </div>
+                                                <span>Working Hours</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-2 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-2-2"></div>
+                                                </div>
+                                                <span>Holidays</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-3 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-3-3"></div>
+                                                </div>
+                                                <span>National Day Holiday</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="tutor-data d-flex justify-content-between">
+                <div class="tutor-info-card">
+                    <div class="card-data">
+                        <div class="tutor-card-img">
+                            <img src="imgaehomepage/unsplash_mQmuv-3jAOc-card-4.png" style="height: auto; width: 100%;"
+                                alt="">
+                            <div class="card-flags">
+                                <img src="imgaehomepage/2560px-Flag_of_Germany.svg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="tutor-card-text">
+                            <div class="t20-lesson">
+                                <img src="imgaehomepage/Group 94-20-lessons.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h1>Marvin McKinney</h1>
+                                <h4>4.9 Rating</h4>
+                            </div>
+                            <div class=" star-img d-flex justify-content-between">
+                                <span>Community Tutor</span>
+                                <img src="imgaehomepage/Group 39stars.png" alt="">
+                            </div>
+                            <h2>Speaks</h2>
+                            <div class="d-flex align-items-center">
+                                <span>English -</span>
+                                <h5>Native</h5>
+                                <div class="h-line"></div>
+                                <span>Spanish -</span>
+                                <h5>Native</h5>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h3>30 Min Trial</h3>
+                                <h3>Hourly Rate From</h3>
+                            </div>
+                            <div class="d-flex justify-content-between" style="padding-bottom: 21px
+                        ;">
+                                <span>IDR - 85,730.10</span>
+                                <span>IDR - 485,730.10</span>
+                            </div>
+                        </div>
+                        <div class="student-book d-flex justify-content-between">
+                            <div class="student-logo d-flex align-items-center">
+                                <img src="imgaehomepage/Vector-profile-student.png" alt="">
+                                <h1>120 Students</h1>
+                            </div>
+                            <button>Book</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tutor-profile-card d-flex flex-column align-items-center ">
+                    <div class="prf-schd-btn d-flex align-items-center justify-content-center">
+                        <ul class="nav nav-tabs d-flex align-items-center justify-content-center">
+                            <li class="active">
+                                <a href="#7" data-toggle="tab">Profile</a>
+                            </li>
+                            <li><a href="#8" data-toggle="tab">Schedule</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content ">
+                        <div class="tab-pane active" id="7">
+                            <div class="diva">
+                                <div class="prf-bg-img prf-bg-4 d-flex align-items-center justify-content-center">
+                                    <img src="imgaehomepage/Vector-vid-prof-icon.png" alt="">
+                                </div>
+                                <div class="heading-card-profile">
+                                    <h1>Description</h1>
+                                </div>
+                                <div class="prf-schd-text ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam integer sit mauris
+                                        sit. Pellentesque urna, adipiscing at aliquam tempor non. Lectus bibendum sollicitudin
+                                        aliquet id...</p>
+                                    <div class="read-more-btn d-flex align-items-end justify-content-end">
+                                        <a href="tutor-profile.html"><button>Read more</button></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="8">
+                            <div class="divb">
+                                <div class="schedule-section d-flex flex-column align-items-center">
+                                    <div class="schedule-month d-flex align-items-center justify-content-between">
+                                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span>November</span>
+                                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="schedule-daydate">
+                                        <div class="schedule-day d-flex justify-content-end">
+                                            <div class="daydate-colmn">
+                                                <h5>Mo</h5>
+                                                <span>26</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Tu</h5>
+                                                <span>27</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>We</h5>
+                                                <span>28</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Th</h5>
+                                                <span>29</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Fr</h5>
+                                                <span>30</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Sa</h5>
+                                                <span>1</span>
+    
+                                            </div>
+                                            <div class="daydate-colmn">
+                                                <h5>Su</h5>
+                                                <span>2</span>
+    
+    
+                                            </div>
+                                        </div>
+                                        <div class="schedule-time">
+                                            <div class="schedule">
+                                                <span>6-12</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>2-18</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>18-24</span>
+                                                <div class="time-fill-bar"></div>
+                                                <div class="time-remain-bar"></div>
+                                            </div>
+                                            <div class="schedule">
+                                                <span>00-16</span>
+                                                <div class="time-bar"></div>
+                                            </div>
+                                        </div>
+                                        <div class="H-signs">
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-1 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-1-1"></div>
+                                                </div>
+                                                <span>Working Hours</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-2 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-2-2"></div>
+                                                </div>
+                                                <span>Holidays</span>
+                                            </div>
+                                            <div class="Holidy-signs d-flex">
+                                                <div
+                                                    class="sign-holidy sign-3 d-flex align-items-center justify-content-center">
+                                                    <div class="sign-box sign-3-3"></div>
+                                                </div>
+                                                <span>National Day Holiday</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="showmore-btn d-flex justify-content-center">
+            <button>Show more</button>
+        </div>
+        <footer class="d-flex flex-column align-items-center justify-content-between">
+            <div class="footer-data d-flex">
+                <div class="social-media-fo">
+                    <h3>Tutorify</h3>
+                    <h5>Learn more than just
+                        a language</h5>
+
+                    <div class="ico d-flex">
+                        <div class="f-icon d-flex align-items-center justify-content-center">
+                            <img src="imgaehomepage/Icon-google-blur.png" alt="">
+                        </div>
+                        <div class="f-icon d-flex align-items-center justify-content-center">
+                            <img src="imgaehomepage/Icon-twitter-blur.png" alt="">
+                        </div>
+                        <div class="f-icon d-flex align-items-center justify-content-center">
+                            <img src="imgaehomepage/Icon-insta-blur.png" alt="">
+                        </div>
+                        <div class="f-icon d-flex align-items-center justify-content-center">
+                            <img src="imgaehomepage/Icon-in-blur-org.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="discover-more-fo d-flex">
+                    <div class="colm">
+                        <h4>Find Teacher</h4>
+                        <h5>English Teachers</h5>
+                        <h5>Chinese Teachers</h5>
+                        <h5>French Teachers</h5>
+                        <h5>Spanish Teachers</h5>
+                        <h5>Other Teachers</h5>
+                    </div>
+                    <div class="colm">
+                        <h4>Lessons</h4>
+                        <h5>Learn English</h5>
+                        <h5>Learn Chinese</h5>
+                        <h5>Learn French</h5>
+                        <h5>Learn Spanish</h5>
+                        <h5>Learn More Languages</h5>
+                    </div>
+                    <div class="colm">
+                        <h4>Company</h4>
+                        <h5>About</h5>
+                        <h5>How it Works</h5>
+                        <h5>Term</h5>
+                        <h5>Privacy Policy</h5>
+                    </div>
+                    <div class="colm">
+                        <h4>More</h4>
+                        <h5>Documentation</h5>
+                        <h5>License</h5>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright © 2021. Created with love.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
